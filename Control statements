@@ -1,78 +1,69 @@
+AIM: A python program for control statements and looping 
+
+ALGORITHM:
+
+STEP1: get user input for runs scored, wickets, catches, balls, overs
+STEP2: calculate strike_r and economy using formulas
+STEP3: using if-else control statements compare runs and strike_r to determine batter 
+       using if-else control statements compare wickets and economy to determine bowler 
+       using if-else control statements compare catches to determine fielder
+STEP4: at last compare batter and bowler to conclude the all rounder person
+       
+CODE:
+
 print (" Best All-rounder performer")
 runs = int input l'Enter runs scored:")
 runs-conc = int (input ('Enter runs conceded:")
-wickets
-Catches balls
-overs
-Striken = (rons/balls) * 100
-runs - conc overs
+wickets = int (input ('Enter wickets:")
+Catches = int (input ('Enter catches:")
+balls = int (input ('Enter balls:")
+overs = int (input ('Enter overs:")
+Strike_r = (runs/balls) * 100
+economy = runs_conc/overs
 if runs>= 50 and striker ›= 120:
-batter = 'Excellent '
-and stile-r >= 100 :
-elif
-elif
-runs → = 30
-batter = 'Good'
-runs > 20:
-batter = Average
-else :
-سيه
-elif
-eli f
-batter = 'Poor batter'
+ batter = 'Excellent '
+elif runs>=30 and strike_r >= 100:
+ batter = 'Good'
+elif runs > 20:
+ batter = 'Average'
+else:
+ batter = 'Poor batter'
 print (" Batter:" , batter)
-wickets >= 3
-and
-bouler = 'Excellent'
-wiclets >=2
-and
-bowler = 'Good"
-wickets >= 1 :
-bowler = 'Average.
-economy < =6:
-economy <= 8:
+if wickets >= 3 and economy<=6:
+ bowler = 'Excellent'
+wiclets >=2 and economy<=8;
+ bowler = 'Good"
+wickets >= 1:
+ bowler = 'Average'
 else :
-bowler = Poor'
-print ('Bowler:)
-, bowler)
+ bowler = 'Poor'
+print ('Bowler:', bowler)
 if catches >= 2:
-prnt (" Outstanding fickder")
-elil catches = = 1 :
-print ("Active fibler")
+print (" Outstanding fielder")
+elif catches == 1 :
+print ("Active fielder")
 else :
 print ("'Needs improvement")
-[9:05 pm, 11/3/2026] Rishitha: if batter == 'Excellent'
-and bouler ==
-'Excellent" :
+if batter == 'Excellent' and bowler == 'Excellent" :
 print (" Star all-rounder")
-elif batter = = Good' and bowler = =
-"Good' :
-print (Strong all- monder")
-elif batter == 'Average' and bowler==
-'Average'
+elif batter == Good' and bowler == "Good' :
+print (Strong all-rounder")
+elif batter == 'Average' and bowler== 'Average'
 print ('Supporting all-rounder')
-ese :
-print (' Overall Needs improvement!)
+else :
+print (' Overall Needs improvement!!')
 
 
+OUTPUT:
 
 Best All-rounder performer
 Enter the runs scored : 156
-
 Enter the runs conceded: 29
-
 Enter the wickets : 6
-
 Enter the Catches taken: 29
-
 Entr the balls faced : 62
-
 Enter the overs: 3
-
 Batter : Excellent
-
 Bowler : Average
-
 Outstanding fielder
-
 Needs improvement !!
