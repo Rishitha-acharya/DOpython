@@ -1,0 +1,38 @@
+AIM: Demonstrate various data types abd operators in python
+
+ALGORITHM:
+
+STEP1: Print introductory strings to the console
+STEP2: Input student marks: get the user to enter marks for four subjects (math, science, social, and english), and store each input as a numeric value.
+STEP3: Calculate total marks: Sum of the four subject marks to determine the total marks obtained by the student.
+STEP4: Calculate and display results: Print the totalm, and then calculate and print the percentage (total marks divided by 4).
+STEP5: get the user INPUT asking "How did you do?", and then print a boolean result of the comparison math > scn to show if the math mark is greater 
+than the science mark.
+
+CODE:
+
+print (Data Type With Operators")
+print (Percentage', 'Calc', sep: "-")
+math = int (input ('Enter math marks:"))
+scn = int (" (' Enter Science marks:"))
+sc = float (" ('Enter social marks:'))
+eg = int("(Enter english marks:"))
+totalm = math + scn + sc + eg;
+print ('Total marks:", totalm)
+print (Percentage:", totalm/4)
+input ('How did you do?')
+Print ('Are you good at math more than science:' , math > scn)
+
+OUTPUT:
+
+Data Types With Operators
+percentage - calc
+Enter maths marks: 40
+Enter science marks : 65
+Enter social marks: 66.9
+Enter english marks: 89
+Total marks : 260.9
+Percentage : 65.225
+How did you do? its not bad but its not good
+Are you good at math more than
+science: False
