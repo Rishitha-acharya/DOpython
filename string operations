@@ -1,1 +1,50 @@
+AIM: Program to implement various string operations
 
+ALGORITHM:
+
+STEP1: enter any two strings to work with
+STEP2: perform string operations using formulas
+STEP3: perform skicing, reverse, split
+STEP4: convert the string ented to all uppercase or lowercase
+STEP5: replace letters, and search for one 
+
+CODE:
+
+print ('String functions eh') 
+sentence= "Bangtan boys"
+text = 'StarStruck'
+print (sentence [0: 4])
+print (sentence (8: 11])
+rev = text [:: - 1]
+print (rev)
+reve = 564
+print (str (reve) [:: -1])
+reve = 'hi'
+print ((reve) (:: -1])
+print (sentence. split ())
+print (sentence. find('y'))
+print (text. upper ())
+print (text. lower ())
+print (text. replace ('Str', "Tr'))
+print ("b' in text)
+print ('2' not in sentence)
+print (text. count ('u'))
+print (len (text))
+
+OUTPUT :
+
+String functions eh
+Bang
+boy 
+kcurtSrats
+465
+ih
+['Bangtan', "boys']
+10
+STARSTRUCK
+starstruck
+StarTruck
+False
+True
+1
+10
