@@ -1,0 +1,37 @@
+AIM: perform Dictionary operations in python
+
+ALGORITHM:
+  
+STEP1: Initialize, Create an empty dictionary and populate it by assigning phone numbers to specific name keys.
+STEP2: Update and Delete, Modify an existing entry by reassigning its value and use the del keyword to remove a specific record.
+STEP3: Iterate and Display, Use a for loop with the .items() method to print all key-value pairs in the collection.
+STEP4: Use the .get() method to safely fetch a single phone number associated with a specific key.
+STEP5: display all names using .keys() and all numbers using .values() independently.
+STEP6: View Full Dictionary, Print the entire set of dictionary items as a list of tuples to show the final state of the phonebook
+  
+CODE:
+
+Phonebook: {}
+Phonebook ["jack" ] : "9833300086"
+Phoncbook [‘Kirk'］=6336809986"
+Phonebook [“Rory"]
+"9868285800"
+Phonebook [Lane"]
+"9628026580"
+Phonebook ["kirk"]: ' 63368668 03'
+del Phonebool ["jack"]
+for name, number in Phonebook items ():
+print (name,":" , number)
+print (" retriving fom get :" Phonebook.get ("Lane "))
+print (Phonebook. key|) prist (Phonebook. valves (J)
+print (Phone book:" ", Phonebook. items(s)
+
+Output :
+
+Kirk : 6336 866803
+Rory :9868285800
+Lane :9628026580
+retriving from get: 9628026580
+dict-keys ([kirk, 'Rory’, Lane]) 
+dict _values ([ 6336866803', 9868285800, 9628026580])
+Phoneboole: dict-items([' Kirk', '6336866803','Rory', 9868285800', Lanẻ', 96280 26580)]
