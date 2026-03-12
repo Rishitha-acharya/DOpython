@@ -1,0 +1,45 @@
+AIM: perform Tuple operations
+
+ALGORITHM:
+
+STEP1: Initialize, Create a constant tuple of integers to use for calculations.
+STEP2: Traverse and Display, Use a for loop to iterate through each element and print them individually.
+STEP3: Calculate Length, Apply the len() function to determine the total number of items in the tuple.
+STEP4: Sum Elements, Use the sum() function to compute the arithmetic total of all values.
+STEP5: Identify Extremes, Use max() and min() functions to extract the highest and lowest values.
+
+CODE: 
+
+print ('Tuple function’)
+numbers: (10, 20, 30, 40,50)
+def display (t) :
+print (" Tuple elements are:") 
+for i in t: 
+print(i )
+display (numbers)
+def length (t)
+print (" Length of tuple:", len (t) ) length (numbers)
+def tsum(t) :
+total = sum(t)
+print ("Sum of elements:", total
+tsum (numbers)
+def tmax (t) :
+print (Max value :" , max (t))
+tmax (numbers)
+def tmin (t):
+print (‘Min value:', min(t))
+tmin (numbers)
+
+Output :
+
+Tuple functions
+Tuple elements are :
+10
+20
+30
+40
+50
+Length of tuple : 5
+Sum of elements: 150
+Max valve: 50
+Min value: 10
