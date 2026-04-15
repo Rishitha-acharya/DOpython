@@ -1,0 +1,26 @@
+AIM: A program to implement Matplotlib & Pandas libraries in python:
+
+ALGORITHM: 
+
+1. Start.
+2. Import the pandas library for data handling 
+  and matplotlib.pyplot for plotting.
+3. Create a DataFrame (a table) containing columns with info.
+4. Print the DataFrame to the console to verify the data.
+5. Initialize a figure using plt.figure() to prepare the drawing area.
+6. Create a Scatter Plot using the "Number" column for the X-axis and 
+  the "Age" column for the Y-axis.
+7. Label the graph:
+ •Set the Title to "CON GRAPH".
+ •Set the X-axis label to "Number".
+ •Set the Y-axis label to "Age".
+8. Display the plot using plt.show().
+9. Stop.
+
+CODE: 
+
+
+
+
+
+OUTPUT: 
