@@ -1,1 +1,45 @@
 AIM: Demontrate object-oriented programming concepts
+
+ALGORITHM:
+
+1. Start.
+2. Define a class named concert.
+3. Define a method band inside the class to:
+  • Take the band's name as input.
+  • Take the number of members as input.
+  • Take the number of songs to perform as input.
+4. Define a method banddisplay inside the class to print the stored name, 
+members, and song count.
+5. Create an object (instance) of the concert class.
+6. Call the band method using the object to collect information.
+7. Call the banddisplay method using the object to show the information.
+8. Stop.
+
+CODE:
+
+print ('Understanding clause f obgects)
+class concert:
+		def band(self) :
+		self.name= input ('Enter your name:')
+		self.members = input ('Enter your number of members:')
+		self.songs = input ('Enter your number of songs to perform:')
+		def banddisplay (self):
+		print ('Band details !!!') 
+    print ("Name:", self.name ) 
+		print ('Members:', self.members)
+		print ('songs:', self.songs)
+b= concert ()
+b.band ()
+b. banddisplay()
+
+
+OUTPUT:
+
+Understanding Classes & objects
+Enter your name: AC&DC
+Enter your number of members: 5
+Enter your number of songe to perform: 10
+Band details !!!
+Name: AC&DC
+Members: 5
+Songs : 10
