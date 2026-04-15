@@ -1,0 +1,56 @@
+AIM: implementation of re module in python 
+
+ALGORITHM:
+
+1. Start.
+2. Import the re module.
+3. Search Operation:
+	•Define a string.
+4. Use re.search() to look for a specific character (e.g., 'A').
+5. If a match is found, print "Letter found!"; 
+  otherwise, print "Not able to find".
+6. Split Operation:
+	•Define a string
+7. Use re.split() with a pattern to break the string into a list.
+8. Print the resulting list.
+9. Iteration Operation:Define a text string and a search pattern (e.g., "cat").
+10. Use re.finditer() to find all occurrences of the pattern in the text.
+11. Loop through each match found:
+12. Retrieve the matched text using .group().
+13. Retrieve the beginning and ending index positions using .start() and .end().
+14. Print these details.
+15. Stop.
+
+CODE:
+
+print ('Regular Expressions')
+import re
+z = "BANGTAN BOYS"
+r: re.search ('A', z)
+if r:
+	print ("Letter found!")
+else :
+	print (" Not able to find")
+Stars = "Stardust sprinkles"
+r = re.split (r"\b" , stars)
+print (r)
+text: "Cat mat bat rat cat mat.
+pattern = "cat"
+matches = re.finditer (patters, text)
+for m in matches:
+print (" Match:", m. group() , "Start position :" , m.start(), "end position",
+m. end ())
+
+OUTPUT:
+
+Regular Expressions
+Letter found!
+['', 'Stardust"', '' , 'sprinkles', '']
+Match: Cat start position: 0
+end position 3
+Match: Cat start position : 16
+end position 19
+
+
+
+
