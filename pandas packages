@@ -19,8 +19,27 @@ ALGORITHM:
 
 CODE: 
 
+import pandas as pd
+import maplotlib. pyplot as plt
+con = pd. Data Frame ({
+"Names" : ["Selena", "Tiara" "Geetha", " Rakshith"],
+"Occupation" ["Singer", "Princes", " Artist", "Being shupid"],
+"Number": [12, 88, 7, 7] ,
+"Age" : [34, 20,44,25]
+print(con)
+num = con ["Number"]
+plt.figure()
+plt.scatter (con ["Number"), con["Age"])
+plt.title ("CON GRAPH")
+plt.xlabel ("Number")
+plt.ylabel ("Age")
+plt.show( )
 
+OUTPUT:
 
+	  Names   Occupation    Number  Age
+0  Selena   Singer         12      34
+1  Tiara    Princess       88      20
+2  Geetha   Artist         7       44
+3  Rakshith Being stupid   7       25
 
-
-OUTPUT: 
