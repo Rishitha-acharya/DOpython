@@ -1,34 +1,33 @@
-AIM : write a program to load clean and exploring the data using python
+AIM : a program to load clean and exploring the data using python
 
 ALGORITHM :
 
 1. Start
 2. Import libraries
-   >  Import Pandas and NumPy.
+   Import Pandas and NumPy.
 3. Create dataset
-   > Define a dictionary with columns: Name, Age, Salary, Joined_Date.
-   > Convert it into a DataFrame.
+   Define a dictionary with columns: Name, Age, Salary, Joined_Date.
+   Convert it into a DataFrame.
 4. Remove duplicates
-   > Drop duplicate rows from the dataset.
+   Drop duplicate rows from the dataset.
 5. Handle missing values
-   > Replace missing Age values with mean Age.
-   > Replace missing Name values with "Unknown".
+   Replace missing Age values with mean Age.
+   Replace missing Name values with "Unknown".
 6. Convert data type
-   > Convert Joined_Date column into datetime format.
+   Convert Joined_Date column into datetime format.
 7. Handle outliers
-   > Limit Salary values to a maximum of 150000 using clipping.
+   Limit Salary values to a maximum of 150000 using clipping.
 8. Data exploration
-   > Display dataset structure (info).
-   > Display statistical summary (describe).
-   > Count missing values in each column.
-   > Perform group analysis: average Salary by Name.
+   Display dataset structure (info).
+   Display statistical summary (describe).
+   Count missing values in each column.
+   Perform group analysis: average Salary by Name.
 9. End
 
 CODE:
 
 import pandas as pd
 import numpy as np
-
 data = {
     'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Alice', np.nan],
     'Age': [25, 30, np.nan, 45, 25, 35],
